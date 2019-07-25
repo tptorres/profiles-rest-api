@@ -116,7 +116,6 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 
-AUTH_USER_MODEL = (
-    "profiles_api.UserProfile"
-)  # String which represents the django user model
+# string which represents the django user model
+AUTH_USER_MODEL = "profiles_api.UserProfile"
 
